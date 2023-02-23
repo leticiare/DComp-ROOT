@@ -1,0 +1,141 @@
+
+/*   PAINEL DE CONTROLE DO ADMINISTRADOR   */
+
+.cabecalho_container{
+    top: 0;
+    background-color: white;
+    height: 68px;
+    box-shadow: 15px 15px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho_itens_li li{
+    list-style-type: none;
+}
+.cabecalho_itens{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+ .cabecalho_itens_li{
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+ }
+.logo_root_cabecalho{
+    width: 68px;
+    border-radius: 100%;
+}
+.login_icon{
+    width: 40px;
+}
+.card_container{
+    height: 93vh;
+    background: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_adicionar_professor{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    color:#777;
+    width: 75vw;
+    height: 80vh; 
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.37);
+    
+    justify-content: space-evenly;
+}
+.imagem_box{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.titulo_card_adicionar_prof{
+    padding: 25px;
+    color: #777;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.imagem_usuario{
+    width: 160px;
+    padding: 25px;
+}
+#button_imagem_professor{
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    padding: 2px;
+    background-color: #4489EC;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+@media(max-width:425px){
+    .imagem_box{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:513px){
+    .imagem_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo_card_adicionar_prof{
+        text-align: center;
+    }
+}
+.inputs_container_profs{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.dados_do_professor{
+    width: 70vw;
+    height: 25px;
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 5px;
+}
+.button_enviar_dados{
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #4489EC;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.barra_lateral li{
+    list-style-type: none;
+}
+.barra_lateral{
+    position: fixed;
+    width: 68px;
+    height: 100vh;
+    background-color: #4489EC;
+    display: flex;
+    left: 0;
+    top:68px;
+    flex-direction: column;
+    align-items: center;
+}
+.icone__item{
+    height: 40px;
+    margin-top: 15px;
+}
