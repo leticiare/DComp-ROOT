@@ -556,9 +556,9 @@ h3{
     margin-right: 5%;
     margin-top: 4rem;
     padding: 2%;
-    border-radius: 7px;
+    border-radius: 20px;
     background-color: white;
-    box-shadow: 10px 10px 10px 5px #00000077;
+    box-shadow: 5px 5px 10px 5px #00000028;
 }
 
 @media(max-width:450px){
