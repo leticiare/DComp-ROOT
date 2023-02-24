@@ -533,11 +533,12 @@ h3{
     color: #fff;
   
 }
-.menuGeral{
-    margin-bottom: 10rem;
-    width: 97vw;
-    text-align: center;
 
+.menuGeral{
+    width: 100%;
+    margin-bottom: 10rem;
+    text-align: center;
+    background-color: #f0efef;
 }
 
 .imagemAreaMenu{
@@ -545,33 +546,59 @@ h3{
 }
 
 .cardArea1{
-    width: 18rem;
-    height: 25rem;
+    display: flex;
+    width: 20rem;
+    height: fit-content;
     margin-top: 2rem;
     display:inline-flex;
     justify-content: center;
-    padding: 5%;
-    
-    
-
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 5px #00000077;
 }
+
 @media(max-width:450px){
+    .sub-headerMenuAreas h1{
+        font-size: 30px;
+    }
     .cardArea1{
         padding: 40px;
-        margin-bottom: 200px;
+        margin-bottom: 20px;
         margin-top: 30px;
+        width: 15rem;
+        
     }
-
+    .botaoArea{
+        margin-top: 50px;
+    }
 }
-@media(max-width: 320px){
+@media(max-width: 347px){
     .cardArea1{
-        width: 60%;
+        width: 80%;
         padding: 0;
+        margin: 50px 20px 0 20px;
         font-size:small;
     }
     .cardArea1 p{
         font-size: 15px;
     }
+}
+@media(max-width: 280px){
+    .cardArea1{
+        width: 80%;
+        padding: 0;
+        margin: 50px 10px 0 10px;
+        font-size:small;
+        padding: 20px 10px;
+        
+    }
+   .botaoArea{
+    margin-top: 30px;
+   }
 }
 .cardArea{
     text-align: center;
@@ -580,7 +607,6 @@ h3{
     font-size: medium;
     text-align: center;
     height: 160px;
-    margin-bottom: 50px;
 }
 .tituloAreaCard{
     margin-top: 25px;
@@ -588,7 +614,7 @@ h3{
 
 }
 .botaoArea{
-    margin-top:20px ;
+    margin-bottom:20px ;
    }
 
 .img_areas{
@@ -608,7 +634,8 @@ h3{
     height: 50px;
     padding: 0 20px;
     width: auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .barraPaginacao .page{
     height: 35px;
